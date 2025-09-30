@@ -1,87 +1,86 @@
-# Welcome to React Router!
+AI Resume ATS Checker
 
-A modern, production-ready template for building full-stack React applications using React Router.
+A full-stack web application that allows users to check their resume’s ATS (Applicant Tracking System) score in real time with the help of AI-powered analysis. The app not only provides an ATS match score but also gives personalized advice and suggestions to improve the resume for better job opportunities.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+🚀 Features
 
-## Features
+📄 Upload & Analyze Resumes – Supports PDF/Word uploads
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+🤖 AI-Powered ATS Scoring – Real-time resume evaluation
 
-## Getting Started
+💡 Actionable Suggestions – AI-generated tips to improve structure, keywords, and formatting
 
-### Installation
+🔍 Job Description Matching – Compare your resume against job postings for relevance
 
-Install the dependencies:
+📊 Detailed Insights – Get breakdowns of skills, readability, and keyword density
 
-```bash
-npm install
-```
+🎨 Beautiful UI – Built with React + TailwindCSS
 
-### Development
+🔒 Authentication – Secure login & user profiles
 
-Start the development server with HMR:
+🌐 Full-Stack Ready – Node.js/Express backend + PostgreSQL/MongoDB database
 
-```bash
-npm run dev
-```
+⚡ Fast Development – Hot Module Replacement (HMR) enabled
 
-Your application will be available at `http://localhost:5173`.
+🛠 Tech Stack
 
-## Building for Production
+Frontend:
 
-Create a production build:
+React
 
-```bash
-npm run build
-```
+React Router
 
-## Deployment
+Tailwind CSS
 
-### Docker Deployment
+TypeScript
 
-To build and run using Docker:
+Backend:
 
-```bash
-docker build -t my-app .
+Node.js / Express
 
-# Run the container
-docker run -p 3000:3000 my-app
-```
+AI API (e.g., OpenAI / Local LLM)
 
-The containerized application can be deployed to any platform that supports Docker, including:
+PostgreSQL / MongoDB
 
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
+Dev Tools:
 
-### DIY Deployment
+Vite for bundling
 
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
+Docker for deployment
 
-Make sure to deploy the output of `npm run build`
+ESLint + Prettier for code quality
 
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
 
-## Styling
+📖 Usage
 
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+Upload your resume in PDF/Word format.
 
----
+Paste the job description (optional) for ATS matching.
 
-Built with ❤️ using React Router.
+The app will generate a score + recommendations.
+
+Iteratively improve your resume using AI feedback.
+
+🧩 Example Output
+
+ATS Score: 78%
+
+Missing Keywords: React, API Design, Agile
+
+Suggestions:
+
+Add more quantifiable achievements
+
+Improve formatting for ATS parsing
+
+Highlight technical skills in bullet points
+
+🤝 Contributing
+
+Contributions are welcome! Please fork the repo and submit a PR with improvements.
+
+📜 License
+
+This project is licensed under the MIT License.
+
+Built with ❤️ by [Arpan].
