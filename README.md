@@ -2,6 +2,10 @@ AI Resume ATS Checker
 
 A full-stack web application that allows users to check their resume’s ATS (Applicant Tracking System) score in real time with the help of AI-powered analysis. The app not only provides an ATS match score but also gives personalized advice and suggestions to improve the resume for better job opportunities.
 
+
+
+
+
 🚀 Features
 
 📄 Upload & Analyze Resumes – Supports PDF/Word uploads
@@ -22,6 +26,10 @@ A full-stack web application that allows users to check their resume’s ATS (Ap
 
 ⚡ Fast Development – Hot Module Replacement (HMR) enabled
 
+
+
+
+
 🛠 Tech Stack
 
 Frontend:
@@ -33,6 +41,8 @@ React Router
 Tailwind CSS
 
 TypeScript
+
+
 
 Backend:
 
@@ -51,6 +61,9 @@ Docker for deployment
 ESLint + Prettier for code quality
 
 
+
+
+
 📖 Usage
 
 Upload your resume in PDF/Word format.
@@ -60,6 +73,11 @@ Paste the job description (optional) for ATS matching.
 The app will generate a score + recommendations.
 
 Iteratively improve your resume using AI feedback.
+
+
+
+
+
 
 🧩 Example Output
 
@@ -74,6 +92,8 @@ Add more quantifiable achievements
 Improve formatting for ATS parsing
 
 Highlight technical skills in bullet points
+
+
 
 🤝 Contributing
 
